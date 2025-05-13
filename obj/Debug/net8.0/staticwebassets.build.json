@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "6+KgYz0qAxeuskuSM17NKxfnrtC6zO1bcUPUHpRR1Bc=",
+  "Source": "backend-grade-pro",
+  "BasePath": "_content/backend-grade-pro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "backend-grade-pro\\wwwroot",
+      "Source": "backend-grade-pro",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\MAESTRIA\\titulacion\\backend-grade-pro\\backend-grade-pro\\wwwroot\\",
+      "BasePath": "_content/backend-grade-pro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
