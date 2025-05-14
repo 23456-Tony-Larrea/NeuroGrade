@@ -123,6 +123,8 @@ namespace backend_grade_pro.src.Data
                 .HasOne(q => q.Teacher)
                 .WithMany()
                 .HasForeignKey(q => q.TeacherId);
+            modelBuilder.Entity<Attendance>().ToTable("Attendance");
+
         }
     }
 }

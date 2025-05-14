@@ -1,4 +1,5 @@
 using backend_grade_pro.src.Data;
+using backend_grade_pro.src.NeuroGrdeAI;
 using backend_grade_pro.src.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,6 +24,8 @@ builder.Services.AddCors(options =>
                           .AllowAnyMethod());
 });
 builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<CommentAnalysisService>();
+builder.Services.AddScoped<PredictedPosittiveSentimentAndAcademicScore>();
 
 
 var app = builder.Build();
